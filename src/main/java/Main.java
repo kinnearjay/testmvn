@@ -4,6 +4,7 @@ public class Main {
         myMethTest();
     }
     public static String myMethTest(){
+        System.out.print("Hallo");
 
         return "Hello World";
     }
