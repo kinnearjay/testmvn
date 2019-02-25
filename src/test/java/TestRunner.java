@@ -16,12 +16,12 @@ public class TestRunner {
         System.out.println("press 2 to run tests on deal and player");
         System.out.println("press 3 to run misc tests");
 
-
-        if(sc.nextLine().equals("1")){
+        String input = sc.nextLine();
+        if(input.equals("1")){
             runner.allTests();
-        }else if(sc.nextLine().equals("2")){
+        }else if(input.equals("2")){
             runner.playDealTests();
-        }else if(sc.nextLine().equals("3")){
+        }else if(input.equals("3")){
             runner.miscTests();
         }
 
